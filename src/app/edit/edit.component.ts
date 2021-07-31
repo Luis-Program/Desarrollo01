@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Product } from '../Model/Product';
 
 @Component({
@@ -8,13 +9,13 @@ import { Product } from '../Model/Product';
 })
 export class EditComponent implements OnInit {
   products: Product[] = [];
-  constructor() { }
+  constructor(private router:Router) { }
 
   ngOnInit(): void {
   }
 
     Edit():void{
-
+      this.router.navigate(["ProductEdit"]);
     }
     Delete():void{
 

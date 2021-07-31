@@ -3,13 +3,20 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { CreateComponent } from './create/create.component';
 import { EditComponent } from './edit/edit.component';
+import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
+import { ProductEditComponent } from './product-edit/product-edit.component';
 import { ViewComponent } from './view/view.component';
 
 const routes: Routes = [
 
   {
     path: 'Home',
-    component: AppComponent
+    component: HomeComponent
+  },
+  {
+    path: 'ProductEdit',
+    component: ProductEditComponent
   },
   {
     path: 'CreateProduct',
@@ -22,6 +29,10 @@ const routes: Routes = [
   {
     path: 'ViewProduct',
     component: ViewComponent
+  },
+  {
+    path: 'Login',
+    component: LoginComponent
   }
 
 ];

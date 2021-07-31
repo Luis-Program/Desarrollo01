@@ -13,23 +13,5 @@ export class AppComponent {
 
   }
 
-  private testString(): string{
-    return ''
-  }
 
-  public routerToLogin(): void{
-    this.router.navigate(['/path01']);
-  }
-  public routerToView(): void{
-    this.router.navigate(['/ViewProduct']);
-  }
-  public routerToCreate(): void{
-    this.router.navigate(['/CreateProduct']);
-  }
-  public routerToEdit(): void{
-    this.router.navigate(['/EditProduct']);
-  }
-  public routerToHome(): void{
-    this.router.navigate(['/Home']);
-  }
 }
