@@ -9,8 +9,11 @@ import { CreateComponent } from './create/create.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { ProductEditComponent } from './product-edit/product-edit.component';
+<<<<<<< HEAD
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+=======
+>>>>>>> 3da60c47e4ab20863858b53c20f0e67a1f5bf17a
 
 @NgModule({
   declarations: [

@@ -18,10 +18,13 @@ export class LoginComponent implements OnInit {
     this.router.navigate(["home"]);
   }
 
+<<<<<<< HEAD
   user_login()
   {
     this.router.navigate(['/EditProduct']);
   }
 
 
+=======
+>>>>>>> 3da60c47e4ab20863858b53c20f0e67a1f5bf17a
 }

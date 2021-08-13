@@ -19,6 +19,10 @@ const routes: Routes = [
     component: ProductEditComponent
   },
   {
+    path: 'ProductEdit',
+    component: ProductEditComponent
+  },
+  {
     path: 'CreateProduct',
     component: CreateComponent
   },
@@ -31,8 +35,13 @@ const routes: Routes = [
     component: ViewComponent
   },
   {
+<<<<<<< HEAD
     path: 'Home',
     component: HomeComponent
+=======
+    path: 'Login',
+    component: LoginComponent
+>>>>>>> 3da60c47e4ab20863858b53c20f0e67a1f5bf17a
   }
 
 ];

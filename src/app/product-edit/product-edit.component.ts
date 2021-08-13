@@ -1,8 +1,12 @@
 import { Component, OnInit } from '@angular/core';
+<<<<<<< HEAD
 import { NavigationStart, Router } from '@angular/router';
 import { NavbarService } from 'src/navbar.service';
 import { ProductsService } from '../products/products.service';
 import { Product } from '../Model/Product';
+=======
+
+>>>>>>> 3da60c47e4ab20863858b53c20f0e67a1f5bf17a
 @Component({
   selector: 'app-product-edit',
   templateUrl: './product-edit.component.html',
@@ -10,6 +14,7 @@ import { Product } from '../Model/Product';
 })
 export class ProductEditComponent implements OnInit {
 
+<<<<<<< HEAD
   productos!: any;
 
 
@@ -43,4 +48,11 @@ export class ProductEditComponent implements OnInit {
   }
 
 
+=======
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+
+>>>>>>> 3da60c47e4ab20863858b53c20f0e67a1f5bf17a
 }
